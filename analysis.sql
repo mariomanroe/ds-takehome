@@ -22,6 +22,22 @@ SELECT
 FROM e_commerce_transactions
 GROUP BY customer_id;
 
+-- Deteksi Anomali
+SELECT 
+  MIN(decoy_noise) AS min_value,
+  MAX(decoy_noise) AS max_value,
+  AVG(decoy_noise) AS avg_value
+FROM e_commerce_transactions
+WHERE decoy_noise IS NOT NULL;
+
+SELECT *
+FROM e_commerce_transactions
+WHERE CAST(decoy_noise AS REAL) < 0;
+
+SELECT *
+FROM e_commerce_transactions
+WHERE CAST(decoy_noise AS REAL) > 700;
+
 -- Repeat purchase bulanan
 SELECT
   strftime('%Y-%m', order_date) AS purchase_month,
