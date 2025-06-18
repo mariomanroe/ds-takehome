@@ -1,5 +1,5 @@
 ## Calibration curve
-![Uploading image.png…]()
+![Calibration curve](https://github.com/user-attachments/assets/630db35f-ee70-4569-b26c-7bee2bdf7f62)
 
 ## Cut-off Skor untuk Expected Default ≤ 5%
 
