@@ -24,11 +24,12 @@ GROUP BY customer_id;
 
 -- Deteksi Anomali
 SELECT 
-  MIN(decoy_noise) AS min_value,
-  MAX(decoy_noise) AS max_value,
-  AVG(decoy_noise) AS avg_value
+  MIN(CAST(decoy_noise AS REAL)) AS min_value,
+  MAX(CAST(decoy_noise AS REAL)) AS max_value,
+  AVG(CAST(decoy_noise AS REAL)) AS avg_value
 FROM e_commerce_transactions
-WHERE decoy_noise IS NOT NULL;
+WHERE decoy_noise IS NOT NULL
+  AND TRIM(decoy_noise) != '';
 
 SELECT *
 FROM e_commerce_transactions
