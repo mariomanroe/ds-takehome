@@ -1,4 +1,4 @@
-# Data Scientist Take-Home Test
+# Data Scientist Take-Home Assignment – Mario Desendi
 
 This repository contains the completed tasks for a Data Scientist take-home assignment consisting of three main sections:
 
