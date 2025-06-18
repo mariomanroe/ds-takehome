@@ -1,3 +1,6 @@
+## Calibration curve
+![Uploading image.png…]()
+
 ## Cut-off Skor untuk Expected Default ≤ 5%
 
 Berdasarkan hasil analisis, cut-off skor minimum agar rasio default yang diharapkan (expected default) tetap di bawah atau sama dengan 5% adalah sekitar **300.13**.
