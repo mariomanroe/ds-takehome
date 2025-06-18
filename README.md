@@ -44,4 +44,4 @@ This repository contains the completed tasks for a Data Scientist take-home assi
 
 ---
 
-© 2025 — Data Scientist Take-Home by [Your Name]
+© 2025 — Data Scientist Take-Home by Mario Desendi
