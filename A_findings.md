@@ -1,8 +1,8 @@
 Dari hasil eksekusi query statistik terhadap kolom decoy_noise, didapatkan:
 
-*Nilai Min = -48.34
-*Nilai Max = 1468.46
-*Nilai Average (Mean) = 201.11 
+- Nilai Min = -48.34
+- Nilai Max = 1468.46
+- Nilai Average (Mean) = 201.11 
 
 Interpretasi & Insight:
 
